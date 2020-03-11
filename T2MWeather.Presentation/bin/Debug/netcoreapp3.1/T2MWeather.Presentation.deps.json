@@ -25,6 +25,7 @@
       "T2MWeather.Presentation/1.0.0": {
         "dependencies": {
           "T2MWeather.Application": "1.0.0",
+          "T2MWeather.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -315,6 +316,17 @@
           "T2MWeather.Presentation.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "T2MWeather.Application/1.0.0": {
         "dependencies": {
           "T2MWeather.Domain": "1.0.0"
@@ -332,6 +344,30 @@
         },
         "compile": {
           "T2MWeather.Domain.dll": {}
+        }
+      },
+      "T2MWeather.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "T2MWeather.Domain": "1.0.0",
+          "T2MWeather.Infrastructure.Sql": "1.0.0"
+        },
+        "runtime": {
+          "T2MWeather.Infrastructure.dll": {}
+        },
+        "compile": {
+          "T2MWeather.Infrastructure.dll": {}
+        }
+      },
+      "T2MWeather.Infrastructure.Sql/1.0.0": {
+        "dependencies": {
+          "T2MWeather.Domain": "1.0.0"
+        },
+        "runtime": {
+          "T2MWeather.Infrastructure.Sql.dll": {}
+        },
+        "compile": {
+          "T2MWeather.Infrastructure.Sql.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2034,12 +2070,29 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "T2MWeather.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "T2MWeather.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "T2MWeather.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "T2MWeather.Infrastructure.Sql/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

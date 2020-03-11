@@ -6,6 +6,6 @@ namespace T2MWeather.Infrastructure.Interfaces
 {
     public interface IServiceCep
     {
-        string GetNameCity(int cep);
+        System.Threading.Tasks.Task<string> GetNameCityAsync(string cep);
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\bin\Debug\netstandard2.0\T2MWeather.Infrastructure.deps.json
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\bin\Debug\netstandard2.0\T2MWeather.Infrastructure.dll
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\bin\Debug\netstandard2.0\T2MWeather.Infrastructure.pdb
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\bin\Debug\netstandard2.0\T2MWeather.Domain.dll
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\bin\Debug\netstandard2.0\T2MWeather.Infrastructure.Sql.dll
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\bin\Debug\netstandard2.0\T2MWeather.Domain.pdb
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\bin\Debug\netstandard2.0\T2MWeather.Infrastructure.Sql.pdb
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\obj\Debug\netstandard2.0\T2MWeather.Infrastructure.csprojAssemblyReference.cache
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\obj\Debug\netstandard2.0\T2MWeather.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\obj\Debug\netstandard2.0\T2MWeather.Infrastructure.AssemblyInfo.cs
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\obj\Debug\netstandard2.0\T2MWeather.Infrastructure.csproj.CopyComplete
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\obj\Debug\netstandard2.0\T2MWeather.Infrastructure.dll
+C:\Users\DanielVeiga\source\repos\T2MWeather-DDD\T2MWeather.Infrastructure\obj\Debug\netstandard2.0\T2MWeather.Infrastructure.pdb

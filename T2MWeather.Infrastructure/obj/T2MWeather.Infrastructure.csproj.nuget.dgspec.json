@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj": {}
+    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
+    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj",
         "projectName": "T2MWeather.Domain",
-        "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj",
+        "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj",
         "packagesPath": "C:\\Users\\DanielVeiga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\obj\\",
+        "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DanielVeiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj": {
+    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj",
+        "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj",
         "projectName": "T2MWeather.Infrastructure.Sql",
-        "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj",
+        "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj",
         "packagesPath": "C:\\Users\\DanielVeiga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure.Sql\\obj\\",
+        "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DanielVeiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
-                "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj"
+              "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
+                "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj"
               }
             }
           }
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj": {
+    "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj",
         "projectName": "T2MWeather.Infrastructure",
-        "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure\\T2MWeather.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\DanielVeiga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DanielVeiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,11 +141,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
-                "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj"
+              "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
+                "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj"
               },
-              "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj": {
-                "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj"
+              "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj": {
+                "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Infrastructure.Sql\\T2MWeather.Infrastructure.Sql.csproj"
               }
             }
           }
@@ -164,6 +164,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

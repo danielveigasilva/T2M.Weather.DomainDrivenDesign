@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using T2MWeather.Application.Interfaces;
+using T2MWeather.Application.Services;
+using T2MWeather.Infrastructure.Interfaces;
+using T2MWeather.Infrastructure.Services;
 
 namespace T2MWeather.Presentation.Controllers
 {
@@ -12,14 +15,13 @@ namespace T2MWeather.Presentation.Controllers
     [ApiController]
     public class CitiesController : ControllerBase
     {
-        private readonly IServiceCity _serviceCity;
-        private readonly IServiceTemperature _serviceTemperature;
-        private readonly IServiceCep _serviceCep;
+        private readonly IServiceCity _serviceCity = new ServiceCity();
+        private readonly IServiceTemperature _serviceTemperature = new ServiceTemperature();
+        private readonly Infrastructure.Interfaces.IServiceCep _serviceCep = new Infrastructure.Services.ServiceCep();
 
         [HttpGet("{name}/temperatures")]
         public ActionResult GetTemperatures(string name)
         {
-            return Ok(name);
             try
             {
                 return Ok(_serviceCity.GetTemperatures(name));
@@ -87,12 +89,13 @@ namespace T2MWeather.Presentation.Controllers
         }
 
         [HttpPost("by_cep/{cep}")]
-        public ActionResult PostByCep(int cep)
+        public ActionResult PostByCep(string cep)
         {
             try
             {
                 //_serviceCity.PostCity(_serviceCep.GetNameCity(cep));
-                return Ok(_serviceCep.GetNameCity(cep));
+                string t = _serviceCep.GetNameCityAsync(cep).Result;
+                return Ok(t);
             }
             catch (Exception e)
             {

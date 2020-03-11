@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\T2MWeather.Application\T2MWeather.Application.csproj" />
+    <ProjectReference Include="..\T2MWeather.Infrastructure\T2MWeather.Infrastructure.csproj" />
   </ItemGroup>
 
 

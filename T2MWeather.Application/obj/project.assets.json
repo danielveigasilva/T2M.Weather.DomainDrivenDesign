@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Application\\T2MWeather.Application.csproj",
+      "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Application\\T2MWeather.Application.csproj",
       "projectName": "T2MWeather.Application",
-      "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Application\\T2MWeather.Application.csproj",
+      "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Application\\T2MWeather.Application.csproj",
       "packagesPath": "C:\\Users\\DanielVeiga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Application\\obj\\",
+      "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DanielVeiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +221,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
-              "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Domain\\T2MWeather.Domain.csproj"
+            "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj": {
+              "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather-DDD\\T2MWeather.Domain\\T2MWeather.Domain.csproj"
             }
           }
         }
