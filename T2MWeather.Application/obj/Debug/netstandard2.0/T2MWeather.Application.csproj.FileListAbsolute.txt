@@ -1,0 +1,11 @@
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\bin\Debug\netstandard2.0\T2MWeather.Application.deps.json
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\bin\Debug\netstandard2.0\T2MWeather.Application.dll
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\bin\Debug\netstandard2.0\T2MWeather.Application.pdb
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\bin\Debug\netstandard2.0\T2MWeather.Domain.dll
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\bin\Debug\netstandard2.0\T2MWeather.Domain.pdb
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\obj\Debug\netstandard2.0\T2MWeather.Application.csprojAssemblyReference.cache
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\obj\Debug\netstandard2.0\T2MWeather.Application.AssemblyInfoInputs.cache
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\obj\Debug\netstandard2.0\T2MWeather.Application.AssemblyInfo.cs
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\obj\Debug\netstandard2.0\T2MWeather.Application.csproj.CopyComplete
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\obj\Debug\netstandard2.0\T2MWeather.Application.dll
+C:\Users\DanielVeiga\source\repos\T2MWeather\T2MWeather.Application\obj\Debug\netstandard2.0\T2MWeather.Application.pdb

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\T2MWeather.Domain\T2MWeather.Domain.csproj" />
+    <ProjectReference Include="..\T2MWeather.Infrastructure.Sql\T2MWeather.Infrastructure.Sql.csproj" />
+  </ItemGroup>
+
+</Project>

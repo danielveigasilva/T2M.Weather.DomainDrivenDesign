@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "T2MWeather.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "T2MWeather.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/T2MWeather.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/T2MWeather.Application.dll": {}
+        }
+      },
+      "T2MWeather.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/T2MWeather.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/T2MWeather.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "T2MWeather.Application/1.0.0": {
+      "type": "project",
+      "path": "../T2MWeather.Application/T2MWeather.Application.csproj",
+      "msbuildProject": "../T2MWeather.Application/T2MWeather.Application.csproj"
+    },
+    "T2MWeather.Domain/1.0.0": {
+      "type": "project",
+      "path": "../T2MWeather.Domain/T2MWeather.Domain.csproj",
+      "msbuildProject": "../T2MWeather.Domain/T2MWeather.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "T2MWeather.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DanielVeiga\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Presentation\\T2MWeather.Presentation.csproj",
+      "projectName": "T2MWeather.Presentation",
+      "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Presentation\\T2MWeather.Presentation.csproj",
+      "packagesPath": "C:\\Users\\DanielVeiga\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Presentation\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DanielVeiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Application\\T2MWeather.Application.csproj": {
+              "projectPath": "C:\\Users\\DanielVeiga\\source\\repos\\T2MWeather\\T2MWeather.Application\\T2MWeather.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
